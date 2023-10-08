@@ -20,4 +20,4 @@
 
 ## Description
 
-The `api.$.tsx` contains a `loader` and an `action` that translates react-admin queries to Prisma.
+The `api.$.tsx` contains a `loader` and an `action` that translate react-admin queries to Prisma.
