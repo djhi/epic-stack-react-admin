@@ -11,44 +11,13 @@
   </p>
 </div>
 
-```sh
-npx create-remix@latest --install --init-script --git-init --template epicweb-dev/epic-stack
-```
+## Differences With Default Epic Stack
 
-[![The Epic Stack](https://github-production-user-asset-6210df.s3.amazonaws.com/1500684/246885449-1b00286c-aa3d-44b2-9ef2-04f694eb3592.png)](https://www.epicweb.dev/epic-stack)
+- Added react-admin dependencies
+- Add 2 routes under the `app/routes/admim+` directory
+  - `$.tsx`: the react-admin frontend
+  - `api.$.tsx`: the react-admin API
 
-[The Epic Stack](https://www.epicweb.dev/epic-stack)
+## Description
 
-<hr />
-
-## Watch Kent's Introduction to The Epic Stack
-
-[![screenshot of a YouTube video](https://github-production-user-asset-6210df.s3.amazonaws.com/1500684/242088051-6beafa78-41c6-47e1-b999-08d3d3e5cb57.png)](https://www.youtube.com/watch?v=yMK5SVRASxM)
-
-["The Epic Stack" by Kent C. Dodds at #RemixConf 2023 💿](https://www.youtube.com/watch?v=yMK5SVRASxM)
-
-## Docs
-
-[Read the docs](https://github.com/epicweb-dev/epic-stack/blob/main/docs)
-(please 🙏).
-
-## Support
-
-- 🆘 Join the
-  [discussion on GitHub](https://github.com/epicweb-dev/epic-stack/discussions)
-  and the [KCD Community on Discord](https://kcd.im/discord).
-- 💡 Create an
-  [idea discussion](https://github.com/epicweb-dev/epic-stack/discussions/new?category=ideas)
-  for suggestions.
-- 🐛 Open a [GitHub issue](https://github.com/epicweb-dev/epic-stack/issues) to
-  report a bug.
-
-## Branding
-
-Want to talk about the Epic Stack in a blog post or talk? Great! Here are some
-assets you can use in your material:
-[EpicWeb.dev/brand](https://epicweb.dev/brand)
-
-## Thanks
-
-You rock 🪨
+The `api.$.tsx` contains a `loader` and an `action` that translates react-admin queries to Prisma.
